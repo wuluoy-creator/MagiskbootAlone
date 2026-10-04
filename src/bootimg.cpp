@@ -20,9 +20,9 @@ using namespace std;
 #define RETURN_OK 0
 
 namespace {
-/** When YUKISU_BOOT_INFO_STDOUT is set, boot info goes to stdout for user/manager; else stderr. */
+/** When ZYSU_BOOT_INFO_STDOUT is set, boot info goes to stdout for user/manager; else stderr. */
 FILE* boot_info_stream() {
-    return (std::getenv("YUKISU_BOOT_INFO_STDOUT") != nullptr) ? stdout : stderr;
+    return (std::getenv("ZYSU_BOOT_INFO_STDOUT") != nullptr) ? stdout : stderr;
 }
 }  // namespace
 

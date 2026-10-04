@@ -135,7 +135,7 @@ Android 构建使用 mbedTLS（FetchContent），无需预装 OpenSSL。
 ## Origin and license
 
 - Boot image format handling and unpack/repack logic are adapted from **Magisk**’s `native/src/boot` (C++ and formerly Rust).  
-- This repository is a standalone, Rust-free reimplementation intended for use in projects that only need the magiskboot binary (e.g. [YukiSU](https://github.com/YukiSU)) and prefer a single CMake build.
+- This repository is a standalone, Rust-free reimplementation intended for use in projects that only need the magiskboot binary (e.g. [ZySU](https://github.com/wuluoy-creator/ZySU)) and prefer a single CMake build.
 - **License**: [GPL-3.0](LICENSE). Same as Magisk. See [LICENSE](LICENSE) for full text.
 
 ## CI
